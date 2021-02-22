@@ -5,3 +5,4 @@ Start leetcode training with golang.
 2. valid-anagram (https://leetcode.com/problems/valid-anagram/)
 3. search-insert-position (https://leetcode.com/problems/search-insert-position/)
 4. first-bad-version (https://leetcode.com/problems/first-bad-version/)
+5. remove-duplicates-from-sorted-list (https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
