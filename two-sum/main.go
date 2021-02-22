@@ -1,6 +1,7 @@
 package main
 
-// Problem URI: https://leetcode.com/problems/two-sum/
+// URI: https://leetcode.com/problems/two-sum/
+
 func twoSum(nums []int, target int) []int {
 	records := map[int]int{}
 	for idx, val := range nums {
