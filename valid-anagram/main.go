@@ -19,7 +19,7 @@ func isAnagram(s string, t string) bool {
 	for _, val := range t {
 		character := string(val)
 		v, ok := counter[character]
-		if !ok {
+		if !ok || v == 0 {
 			return false
 		}
 		if v-1 == 0 {
