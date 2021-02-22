@@ -18,12 +18,14 @@ func isAnagram(s string, t string) bool {
 
 	for _, val := range t {
 		character := string(val)
-		if v, ok := counter[character]; ok {
-			if v-1 == 0 {
-				delete(counter, character)
-			} else {
-				counter[character] = v - 1
-			}
+		v, ok := counter[character]
+		if !ok {
+			return false
+		}
+		if v-1 == 0 {
+			delete(counter, character)
+		} else {
+			counter[character] = v - 1
 		}
 	}
 	return len(counter) == 0
