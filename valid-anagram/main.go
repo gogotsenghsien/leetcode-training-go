@@ -1,7 +1,5 @@
 package main
 
-// URI: https://leetcode.com/problems/valid-anagram/
-
 func isAnagram(s string, t string) bool {
 	counter := map[string]int{}
 
@@ -11,7 +9,7 @@ func isAnagram(s string, t string) bool {
 
 	for _, val := range s {
 		character := string(val)
-		if _, ok := counter[character]; ok {
+		if _, ok := counter[character]; !ok {
 			counter[character] = 1
 		} else {
 			counter[character] += 1
