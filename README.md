@@ -15,3 +15,4 @@ Start LeetCode training with golang.
 
 ### Binary Tree
 - same-tree (https://leetcode.com/problems/same-tree/)
+- balanced-binary-tree (https://leetcode.com/problems/balanced-binary-tree/)
