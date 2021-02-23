@@ -1,5 +1,5 @@
 # leetcode-training-go
-Start leetcode training with golang.
+Start LeetCode training with golang.
 
 ### Hash Table
 - two-sum (https://leetcode.com/problems/two-sum/)
@@ -12,3 +12,6 @@ Start leetcode training with golang.
 ### Linked List
 - remove-duplicates-from-sorted-list (https://leetcode.com/problems/remove-duplicates-from-sorted-list/)
 - merge-two-sorted-lists (https://leetcode.com/problems/merge-two-sorted-lists/)
+
+### Binary Tree
+- same-tree (https://leetcode.com/problems/same-tree/)
