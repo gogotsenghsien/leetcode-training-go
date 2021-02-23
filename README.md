@@ -16,3 +16,6 @@ Start LeetCode training with Golang.
 ### Binary Tree
 - same-tree (https://leetcode.com/problems/same-tree/)
 - balanced-binary-tree (https://leetcode.com/problems/balanced-binary-tree/)
+
+### Recursive/Iterative
+- symmetric-tree (https://leetcode.com/problems/symmetric-tree/)
