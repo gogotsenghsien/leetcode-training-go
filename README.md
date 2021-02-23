@@ -1,5 +1,5 @@
 # leetcode-training-go
-Start LeetCode training with golang.
+Start LeetCode training with Golang.
 
 ### Hash Table
 - two-sum (https://leetcode.com/problems/two-sum/)
