@@ -20,3 +20,6 @@ Start LeetCode training with Golang.
 ### Recursive/Iterative
 - symmetric-tree (https://leetcode.com/problems/symmetric-tree/)
 - merge-two-binary-trees (https://leetcode.com/problems/merge-two-binary-trees/)
+
+### Dynamic Programming
+- unique-paths (https://leetcode.com/problems/unique-paths/)
