@@ -30,3 +30,7 @@ Start LeetCode training with Golang.
 ### Binary Tree Traversal
 - binary-tree-inorder-traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - binary-tree-level-order-traversal (https://leetcode.com/problems/binary-tree-level-order-traversal/)
+
+### Bitwise Operation
+- single-number (https://leetcode.com/problems/single-number/)
+- binary-number-with-alternating-bits (https://leetcode.com/problems/binary-number-with-alternating-bits/)
