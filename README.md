@@ -24,3 +24,5 @@ Start LeetCode training with Golang.
 ### Dynamic Programming
 - unique-paths (https://leetcode.com/problems/unique-paths/)
 - unique-paths-ii (https://leetcode.com/problems/unique-paths-ii/)
+- house-robber (https://leetcode.com/problems/house-robber/)
+- house-robber-ii (https://leetcode.com/problems/house-robber-ii/)
