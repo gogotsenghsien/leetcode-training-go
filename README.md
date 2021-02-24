@@ -33,6 +33,7 @@ Start LeetCode training with Golang.
 
 ### Binary Search Tree
 - search-in-a-binary-search-tree (https://leetcode.com/problems/search-in-a-binary-search-tree/)
+- validate-binary-search-tree (https://leetcode.com/problems/validate-binary-search-tree/)
 
 ### Bitwise Operation
 - single-number (https://leetcode.com/problems/single-number/)
