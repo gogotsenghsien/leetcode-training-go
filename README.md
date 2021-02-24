@@ -31,6 +31,9 @@ Start LeetCode training with Golang.
 - binary-tree-inorder-traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/)
 - binary-tree-level-order-traversal (https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
+### Binary Search Tree
+- search-in-a-binary-search-tree (https://leetcode.com/problems/search-in-a-binary-search-tree/)
+
 ### Bitwise Operation
 - single-number (https://leetcode.com/problems/single-number/)
 - binary-number-with-alternating-bits (https://leetcode.com/problems/binary-number-with-alternating-bits/)
