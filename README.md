@@ -28,4 +28,5 @@ Start LeetCode training with Golang.
 - house-robber-ii (https://leetcode.com/problems/house-robber-ii/)
 
 ### Binary Tree Traversal
-- binary-tree-inorder-traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/) 
+- binary-tree-inorder-traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/)
+- binary-tree-level-order-traversal (https://leetcode.com/problems/binary-tree-level-order-traversal/)
