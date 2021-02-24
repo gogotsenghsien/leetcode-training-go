@@ -26,3 +26,6 @@ Start LeetCode training with Golang.
 - unique-paths-ii (https://leetcode.com/problems/unique-paths-ii/)
 - house-robber (https://leetcode.com/problems/house-robber/)
 - house-robber-ii (https://leetcode.com/problems/house-robber-ii/)
+
+### Binary Tree Traversal
+- binary-tree-inorder-traversal (https://leetcode.com/problems/binary-tree-inorder-traversal/) 
