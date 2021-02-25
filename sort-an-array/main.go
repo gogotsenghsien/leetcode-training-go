@@ -7,7 +7,7 @@ import (
 var globalNums []int
 
 func sortArray(nums []int) []int {
-	n := 5 // choose the case you want
+	n := 3 // choose the case you want
 
 	switch n {
 	case 1:
@@ -16,6 +16,9 @@ func sortArray(nums []int) []int {
 	case 2:
 		// 2. bubble sort
 		return bubbleSort(nums)
+	case 3:
+		// 3. bucket sort
+		return bucketSort(nums)
 	case 4:
 		// 4. merge sort
 		return mergeSort(nums)
@@ -40,6 +43,22 @@ func bubbleSort(nums []int) []int {
 				nums[j], nums[j+1] = nums[j+1], nums[j]
 			}
 		}
+	}
+	return nums
+}
+
+func bucketSort(nums []int) []int {
+	bucket := make([]int, 100001)
+	for _, v := range nums {
+		bucket[v+50000] += 1
+	}
+	i := 0
+	for j := range nums {
+		for bucket[i] == 0 {
+			i++
+		}
+		nums[j] = i - 50000
+		bucket[i]--
 	}
 	return nums
 }
