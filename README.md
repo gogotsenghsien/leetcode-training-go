@@ -52,3 +52,6 @@ Start LeetCode training with Golang.
 
 ### Sieve Of Eratosthenes
 - count-primes (https://leetcode.com/problems/count-primes/)
+
+### Boyer-Moore majority vote algorithm
+- majority-element (https://leetcode.com/problems/majority-element/)
