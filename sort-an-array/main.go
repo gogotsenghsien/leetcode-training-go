@@ -4,10 +4,8 @@ import (
 	"sort"
 )
 
-var globalNums []int
-
 func sortArray(nums []int) []int {
-	n := 3 // choose the case you want
+	n := 5 // choose the case you want
 
 	switch n {
 	case 1:
@@ -98,37 +96,36 @@ func mergeSort(nums []int) []int {
 }
 
 func quickSort(nums []int) []int {
-	globalNums = nums
-	doQuickSort(0, len(nums)-1)
-	return globalNums
+	doQuickSort(nums, 0, len(nums)-1)
+	return nums
 }
 
-func doQuickSort(left, right int) {
+func doQuickSort(nums []int, left, right int) {
 	if left >= right {
 		return
 	}
-	if left+1 == right && globalNums[right] >= globalNums[left] {
+	if left+1 == right && nums[right] >= nums[left] {
 		return
 	}
-	pivot := globalNums[left] // choose the left node as pivot
+	pivot := nums[left] // choose the left node as pivot
 	l, r := left, right
 
 	// partitioning
 	for l <= r {
-		for l <= r && globalNums[l] < pivot {
+		for l <= r && nums[l] < pivot {
 			l++
 		}
-		for l <= r && globalNums[r] > pivot {
+		for l <= r && nums[r] > pivot {
 			r--
 		}
 		if l <= r {
-			globalNums[l], globalNums[r] = globalNums[r], globalNums[l]
+			nums[l], nums[r] = nums[r], nums[l]
 			l++
 			r--
 		}
 	}
 
-	doQuickSort(left, r)
-	doQuickSort(l, right)
+	doQuickSort(nums, left, r)
+	doQuickSort(nums, l, right)
 	return
 }
