@@ -45,3 +45,4 @@ Start LeetCode training with Golang.
 
 ### Array/List Operation
 - flip-string-to-monotone-increasing (https://leetcode.com/problems/flip-string-to-monotone-increasing/)
+- product-of-array-except-self (https://leetcode.com/problems/product-of-array-except-self/)
