@@ -58,3 +58,4 @@ Start LeetCode training with Golang.
 
 ### Sort
 - sort-an-array (https://leetcode.com/problems/sort-an-array/)
+- longest-palindrome (https://leetcode.com/problems/longest-palindrome/)
