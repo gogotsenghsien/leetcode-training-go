@@ -38,3 +38,6 @@ Start LeetCode training with Golang.
 ### Bitwise Operation
 - single-number (https://leetcode.com/problems/single-number/)
 - binary-number-with-alternating-bits (https://leetcode.com/problems/binary-number-with-alternating-bits/)
+
+### String Operation
+- add-binary (https://leetcode.com/problems/add-binary/)
