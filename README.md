@@ -49,3 +49,6 @@ Start LeetCode training with Golang.
 
 ### Two Pointers
 - 3sum (https://leetcode.com/problems/3sum/)
+
+### Sieve Of Eratosthenes
+- count-primes (https://leetcode.com/problems/count-primes/)
