@@ -1,9 +1,13 @@
 package main
 
-import "sort"
+import (
+	"sort"
+)
+
+var globalNums []int
 
 func sortArray(nums []int) []int {
-	n := 1 // choose the case you want
+	n := 5 // choose the case you want
 
 	switch n {
 	case 1:
@@ -14,7 +18,10 @@ func sortArray(nums []int) []int {
 		return bubbleSort(nums)
 	case 4:
 		// 4. merge sort
-		return MergeSort(nums)
+		return mergeSort(nums)
+	case 5:
+		// 5. quick sort
+		return quickSort(nums)
 	}
 
 	return []int{}
@@ -37,13 +44,13 @@ func bubbleSort(nums []int) []int {
 	return nums
 }
 
-func MergeSort(nums []int) []int {
+func mergeSort(nums []int) []int {
 	if len(nums) > 1 {
 		mid := len(nums) / 2
 		l := nums[:mid]
 		r := nums[mid:]
-		l = sortArray(l)
-		r = sortArray(r)
+		l = mergeSort(l)
+		r = mergeSort(r)
 		i, j := 0, 0
 		res := make([]int, 0)
 
@@ -69,4 +76,40 @@ func MergeSort(nums []int) []int {
 		return res
 	}
 	return nums
+}
+
+func quickSort(nums []int) []int {
+	globalNums = nums
+	doQuickSort(0, len(nums)-1)
+	return globalNums
+}
+
+func doQuickSort(left, right int) {
+	if left >= right {
+		return
+	}
+	if left+1 == right && globalNums[right] >= globalNums[left] {
+		return
+	}
+	pivot := globalNums[left] // choose the left node as pivot
+	l, r := left, right
+
+	// partitioning
+	for l <= r {
+		for l <= r && globalNums[l] < pivot {
+			l++
+		}
+		for l <= r && globalNums[r] > pivot {
+			r--
+		}
+		if l <= r {
+			globalNums[l], globalNums[r] = globalNums[r], globalNums[l]
+			l++
+			r--
+		}
+	}
+
+	doQuickSort(left, r)
+	doQuickSort(l, right)
+	return
 }
