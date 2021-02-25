@@ -55,3 +55,6 @@ Start LeetCode training with Golang.
 
 ### Boyer-Moore majority vote algorithm
 - majority-element (https://leetcode.com/problems/majority-element/)
+
+### Sort
+- sort-an-array (https://leetcode.com/problems/sort-an-array/)
