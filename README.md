@@ -62,3 +62,6 @@ Start LeetCode training with Golang.
 
 ### DFS
 - longest-univalue-path (https://leetcode.com/problems/longest-univalue-path/)
+
+### BFS
+- minimum-depth-of-binary-tree (https://leetcode.com/problems/minimum-depth-of-binary-tree/)
