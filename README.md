@@ -76,3 +76,6 @@ Start LeetCode training with Golang.
 
 ### Queue
 - n-ary-tree-level-order-traversal (https://leetcode.com/problems/n-ary-tree-level-order-traversal/)
+
+### Trie
+- implement-trie-prefix-tree (https://leetcode.com/problems/implement-trie-prefix-tree/)
