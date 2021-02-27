@@ -70,3 +70,6 @@ Start LeetCode training with Golang.
 
 ### Greedy Algorithm
 - jump-game (https://leetcode.com/problems/jump-game/)
+
+### Stack
+- valid-parentheses (https://leetcode.com/problems/valid-parentheses/)
