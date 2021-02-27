@@ -79,3 +79,6 @@ Start LeetCode training with Golang.
 
 ### Trie
 - implement-trie-prefix-tree (https://leetcode.com/problems/implement-trie-prefix-tree/)
+
+### Heap
+- last-stone-weight (https://leetcode.com/problems/last-stone-weight/)
