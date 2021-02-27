@@ -65,3 +65,8 @@ Start LeetCode training with Golang.
 
 ### BFS
 - minimum-depth-of-binary-tree (https://leetcode.com/problems/minimum-depth-of-binary-tree/)
+
+### Backtracking
+
+### Greedy Algorithm
+- jump-game (https://leetcode.com/problems/jump-game/)
