@@ -1,18 +1,17 @@
 package main
 
-import "strconv"
-
-type Obj struct {
-	Key int
-	Val string
-}
-
-var objs = []Obj{
-	{Key: 3, Val: "Fizz"},
-	{Key: 5, Val: "Buzz"},
-}
+import (
+	"strconv"
+)
 
 func fizzBuzz(n int) []string {
+	objs := []struct {
+		Key int
+		Val string
+	}{
+		{Key: 3, Val: "Fizz"},
+		{Key: 5, Val: "Buzz"},
+	}
 	result := make([]string, 0, n)
 	for i := 1; i <= n; i++ {
 		str := ""
