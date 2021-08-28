@@ -5,11 +5,7 @@ func countCharacters(words []string, chars string) int {
 
 	// 先算出魔王單字所有 char 的 count
 	for _, char := range chars {
-		if _, ok := charsHashes[char]; ok {
-			charsHashes[char]++
-		} else {
-			charsHashes[char] = 1
-		}
+		charsHashes[char]++
 	}
 
 	result := 0
@@ -25,11 +21,7 @@ func countCharacters(words []string, chars string) int {
 				break
 			}
 
-			if _, ok := wordHashes[char]; ok {
-				wordHashes[char]++
-			} else {
-				wordHashes[char] = 1
-			}
+			wordHashes[char]++
 		}
 
 		if good {
