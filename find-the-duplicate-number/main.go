@@ -1,15 +1,29 @@
 package main
 
-import "sort"
-
 func findDuplicate(nums []int) int {
-	sort.Ints(nums)
+	if len(nums) < 2 {
+		return -1
+	}
 
-	for idx, num := range nums {
-		if num == nums[idx+1] {
-			return num
+	// 龜兔賽跑 phase I
+	slow, fast := nums[0], nums[0]
+
+	for {
+		slow = nums[slow]
+		fast = nums[nums[fast]]
+
+		if slow == fast {
+			break
 		}
 	}
 
-	return -1
+	// 龜兔賽跑 phase II
+	fast = nums[0]
+
+	for slow != fast {
+		slow = nums[slow]
+		fast = nums[fast]
+	}
+
+	return slow
 }
